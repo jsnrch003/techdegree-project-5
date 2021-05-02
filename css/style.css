@@ -17,6 +17,10 @@ input {
     font-family: 'Montserrat', sans-serif;
 }
 
+input::placeholder {
+    opacity: .4;
+}
+
 input:focus {
     outline: none;
 }
