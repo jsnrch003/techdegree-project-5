@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto 75px;
+}
+
+input {
+    min-width: 325px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    padding: .85em;
+    color: #666;
+    flex-basis: 45%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+img {
+    width: 275px;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 1.75em 0;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 25px 0;
+}
+
+.grid-item {
+    display: grid;
+    justify-content: center;
+}
