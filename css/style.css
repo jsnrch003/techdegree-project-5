@@ -4,7 +4,10 @@
 
 body {
     max-width: 1300px;
+    height: 100vh;
     margin: 0 auto 75px;
+    background: rgb(246,246,246);
+    background: radial-gradient(circle, rgba(246,246,246,1) 75%, rgba(207,207,207,1) 100%);
 }
 
 input {
