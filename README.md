@@ -1,4 +1,4 @@
-# techdegree-project-5
+# Techdegree Project 5 -- An Interactive Photo Gallery
 
 In this project, I created an interactive photo gallery using JavaScript and CSS Grid Layout. 
 
